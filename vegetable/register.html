@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Leaf - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd5c7c48a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif, ;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 64px;
+            color: #222;
+        }
+
+        h2 {
+            font-size: 46px;
+            line-height: 54px;
+            color: #222;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: #222;
+        }
+
+        h6 {
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 15px 0 20px 0;
+            color: rgb(59, 54, 54);
+            font-weight: 300;
+
+            line-height: 22px;
+            padding: 10px;
+        }
+
+        .section-p1 {
+            padding: 40px 80px;
+        }
+
+        .section-m1 {
+            margin: 40px 0;
+        }
+
+        body {
+            width: 100%;
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 80px;
+            background: #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+            z-index: 999;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #navbar li {
+            list-style: none;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        #navbar li a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a1a1a;
+            transition: 0.3 ease;
+        }
+
+        #header img {
+            height: 100px;
+            width: 100px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5%;
+        }
+
+        #navbar li a:hover,
+        #navbar li a.active {
+            color: #088178;
+        }
+
+        .container {
+            background-image: linear-gradient(rgb(57 56 56 / 80%), rgb(11 8 8 / 80%)), url(pics/pic2.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            height: 815px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .form-box {
+            width: 90%;
+            max-width: 450px;
+            position: absolute;
+            top: -15%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            background: #fff;
+            padding: 50px 60px 70px;
+            text-align: center;
+        }
+
+        .form-box h1 {
+            font-size: 30px;
+            margin-bottom: 60px;
+            color: #088178;
+            position: relative;
+        }
+
+        .form-box h1::after {
+            content: '';
+            width: 30px;
+            height: 4px;
+            border-radius: 3px;
+            background: #088178;
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        .input-field {
+            background: #eaeaea;
+            margin: 15px 0;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        input {
+            width: 100%;
+            background: transparent;
+            border: 0;
+            outline: 0;
+            padding: 18px 15px;
+        }
+
+        .input-field i {
+            margin-left: 15px;
+            color: #999;
+        }
+
+        form p {
+            text-align: left;
+            font-size: 13px;
+        }
+
+        form p a {
+            text-decoration: none;
+            color: #3c00a0;
+        }
+
+        .btn-field {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn-field button {
+            flex-basis: 48%;
+            background: #088178;
+            color: #fff;
+            height: 40px;
+            border-radius: 20px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+            transition: background 1s;
+        }
+
+        .btn-field1 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 28px;
+            margin-bottom: 25px;
+        }
+
+        .btn-field1 button {
+            flex-basis: 48%;
+            background: #088178;
+            color: #fff;
+            margin-left: 75px;
+            height: 40px;
+            border-radius: 20px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+            transition: background 1s;
+        }
+
+        
+
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .icon .fa-brands {
+            color: #f44336;
+            margin: 0 13px;
+            cursor: pointer;
+            padding: 18px 0;
+        }
+
+        .btn-field button.disable {
+            background: #eaeaea;
+            color: #555;
+        }
+        .fg{
+            margin-top: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="pics/logo3.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="/">Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+
+                    <div class="btn-field1">
+                        <button type="button">Submit</button>
+                    </div>
+                    
+                </div>
+
+                <div class="btn-field">
+                    <button type="button">Sign Up</button>
+                    <button type="button" class="disable" onclick="window.location.href='login.html';">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="icon">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <p> Green Leaves © 2023 All Rights are reserved.</p>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
